@@ -55,6 +55,46 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-family: "Fira Mono", "Liberation Mono", "Consolas", "monospace";
+    background: #ddd;
+
+}
+div.mid-container {
+    width: 600px;
+    position:absolute;
+    left:50%;
+    top:50%;
+}
+
+.mid-container>div>ul {
+    text-align: center;
+}
+
+.mid-container>div>ul>li {
+    display: inline-block;
+    text-align: center;
+}
+
+.mid-container li>a {
+    text-decoration: none;
+    border-radius: 0.2em;
+    color: #fff;
+    background: #000;
+    font-weight: 900;
+    padding: 0.2em 0.5em;
+}
+
+.mid-container li>a:hover {
+    background: #555;
+}
+
+.mid-container>h1 {
+    font-size: 50pt;
+    letter-spacing: 0.1em;
+    padding: auto;
+    text-align: center;
+}
 
 
 
