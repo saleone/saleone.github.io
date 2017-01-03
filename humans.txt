@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Sasa Savic -- It's meee -- savic-sasa@outlook.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize, Modernizr
