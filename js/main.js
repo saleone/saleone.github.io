@@ -1,14 +1,4 @@
 $(document).ready(function(){
-    $(window).resize(function(){
-        $('.mid-container').css({
-        position:'absolute',
-        left: ($(window).width()
-            - $('.mid-container').outerWidth())/2,
-        top: ($(window).height()
-            - $('.mid-container').outerHeight())/2
-        });
-    });
-
     $('#blog-link').hover(
         // hover in
         function() {
@@ -18,8 +8,5 @@ $(document).ready(function(){
         function() {
             $('#main-header').text('Saša Savić')
         }
-    )
-
-    $(window).resize();
-
+    );
 });

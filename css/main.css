@@ -58,25 +58,24 @@ textarea {
 body {
     font-family: "Fira Mono", "Liberation Mono", "Consolas", "monospace";
     background: #eee;
-
-}
-div.mid-container {
-    width: 600px;
-    position:absolute;
-    left:50%;
-    top:50%;
 }
 
-.mid-container>div>ul {
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container>div>ul {
     text-align: center;
 }
 
-.mid-container>div>ul>li {
+.container>div>ul>li {
     display: inline-block;
     text-align: center;
 }
 
-.mid-container li>a {
+.container li>a {
     text-decoration: none;
     border-radius: 0.2em;
     color: #fff;
@@ -85,31 +84,16 @@ div.mid-container {
     padding: 0.2em 0.5em;
 }
 
-.mid-container li>a:hover {
+.container li>a:hover {
     background: #555;
 }
 
-.mid-container>h1 {
+.container>h1 {
     font-size: 50pt;
     letter-spacing: 0.1em;
     padding: auto;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
