@@ -1,10 +1,8 @@
 body {
-    background: url('https://i.imgur.com/NCU3AWc.jpg') no-repeat center center fixed;
-    background-size: cover;
-    font-family: "Fira Mono", "Liberation Mono", "Consolas", "monospace";
-    color: #606c76;
-    margin: 0;
-    padding: 0;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 15pt;
+	background: #fafafa;
+	color: #555555;
 }
 
 .centered {
@@ -14,88 +12,24 @@ body {
     justify-content: center;
 }
 
-.container {
-    background: rgba(200, 200, 200, 0.5);
+#container {
     width: 100%;
 }
 
-.container>h1 {
-    font-family: Italianno, cursive;
-    font-size: 45pt;
-    font-weight: 300;
+.content-line {
     text-align: center;
-    color: #ccc;
-    text-shadow: 0 0 4px #000;
 }
 
-.container>p {
-    padding: 0 10vh;
-    text-align: center;
-    font-variant: small-caps;
-    font-weight: 900;
-    color: #222;
-    text-shadow: 0 1px 1px #aaa;
-    font-size: 13pt;
+img {
+    height: 15vh;
+    padding: 5vh;
 }
 
-.container>p>a {
-    color: #fff;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
-    display: inline-block;
-}
-.container>p>a:hover {
-    text-shadow: 0 0 2px #333;
-    color: #fff;
-}
-
-.container>p.icons>a {
-    font-size: 20pt;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    .centered { display: block; text-align: left }
-
-    .container>p {
-        text-align: left;
-	font-variant: normal;
-	font-family: serif;
-    }
-
-    .container>h1 { font-family: serif; text-align: left; }
-
-    @page { margin: 1cm }
-
-    a,
-    a:visited {
-        text-decoration: none;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    img {
-        page-break-inside: avoid;
-	display: none
-    }
 }

@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="30.9mm"
+   height="30.9mm"
+   viewBox="0 0 30.9 30.9"
    version="1.1"
    id="svg4575"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/saleone/Downloads/logo.png"
    inkscape:export-xdpi="500"
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="90.408631"
-     inkscape:cy="1036.3736"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-59.129547"
+     inkscape:cy="233.87407"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2536"
-     inkscape:window-height="1370"
-     inkscape:window-x="9"
-     inkscape:window-y="33"
+     inkscape:window-width="1914"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4572">
@@ -54,21 +54,22 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-266.1)">
     <rect
        style="opacity:1;fill:#000000;fill-opacity:0.99507392;fill-rule:nonzero;stroke:none;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.91079814;paint-order:normal"
        id="rect5120"
        width="30.899553"
        height="30.899553"
-       x="4.8191962"
-       y="5.2023807"
+       x="0"
+       y="266.10043"
        rx="2"
        ry="2" />
     <rect
        ry="1.4999996"
        rx="1.4999996"
-       y="6.2607141"
-       x="5.8775296"
+       y="267.15878"
+       x="1.0583334"
        height="26.505581"
        width="26.505581"
        id="rect5122"
@@ -76,11 +77,13 @@
     <g
        aria-label="S"
        style="font-style:normal;font-weight:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       id="text5162">
+       id="text5162"
+       transform="translate(-4.8191961,260.89806)">
       <path
          d="m 22.233243,14.135643 c 0,-1.512711 -0.338666,-2.506133 -1.151466,-3.409244 -1.106312,-1.2192001 -2.935112,-1.8739556 -5.305778,-1.8739556 -3.951111,0 -6.231467,1.8513776 -6.231467,5.0574226 0,2.551288 1.286933,3.793066 4.628444,4.425244 l 2.302934,0.451556 c 2.257778,0.428977 3.093155,1.061155 3.093155,2.393244 0,1.377245 -1.264355,2.212622 -3.318933,2.212622 -2.302933,0 -3.589867,-0.970844 -3.702756,-2.731911 H 9.2510209 c 0.2032,3.522134 2.6190221,5.441245 6.8184891,5.441245 4.244622,0 6.750755,-1.986845 6.750755,-5.328356 0,-2.596444 -1.309511,-3.951111 -4.357511,-4.538133 l -2.573866,-0.496711 c -2.415823,-0.474134 -3.115734,-0.948267 -3.115734,-2.144889 0,-1.241778 1.106311,-2.032 2.8448,-2.032 2.144889,0 3.341511,0.903111 3.4544,2.573866 z"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L Bold';fill:#cccccc;stroke-width:0.26458332"
-         id="path5235" />
+         id="path5235"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
